@@ -1,0 +1,1 @@
+%cd%\emulator-server local

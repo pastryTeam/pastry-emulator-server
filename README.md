@@ -1,1 +1,1 @@
-# pastry-emulator-server
+# Pastry Emulator Server
