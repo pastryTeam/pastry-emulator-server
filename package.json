@@ -1,5 +1,5 @@
 {
-  "name": "com.citic.asp.pastry-emulator-server",
+  "name": "pastry-emulator-server",
   "version": "1.0.0",
   "description": "emulator-server",
   "main": "index.js",
