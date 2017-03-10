@@ -19,7 +19,7 @@ args = [
     defaultValue: 'server'
   }, ['-a', '--addr'], {
     help: '指定监听IP',
-    defaultValue: '127.0.0.1'
+    defaultValue: '0.0.0.0'
   }, ['-p1', '--port1'], {
     help: '指定监听端口。',
     defaultValue: 7777
