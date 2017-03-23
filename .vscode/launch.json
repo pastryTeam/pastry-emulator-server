@@ -7,14 +7,14 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "启动本地服务",
+            "name": "启动Pastry本地服务",
             "program": "${workspaceRoot}/bin/emulator-server",
             "args":["local"]
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "启动远程服务",
+            "name": "启动Pastry远程服务",
             "program": "${workspaceRoot}/bin/emulator-server",
             "args":["server"]
         },
