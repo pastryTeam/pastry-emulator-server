@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动本地服务",
+            "program": "${workspaceRoot}/bin/emulator-server",
+            "args":["local"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "启动远程服务",
+            "program": "${workspaceRoot}/bin/emulator-server",
+            "args":["server"]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "附加到进程",
+            "address": "localhost",
+            "port": 7777
+        }
+    ]
+}
