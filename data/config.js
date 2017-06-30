@@ -25,18 +25,12 @@ args = [
     defaultValue: 7777
   }, ['-s', '--server'], {
     help: '指定前置服务器。',
-    // defaultValue: '127.0.0.1'
-    // defaultValue: '123.57.85.171'
     defaultValue: '20.64.27.163'
   }, ['-p2', '--port2'], {
     help: '指定前置服务器端口号',
-    // defaultValue: '11111'
-    // defaultValue: '8080'
     defaultValue: '8004'
   }, ['-app', '--appName'],{
     help: '前置名称',
-    // defaultValue: 'CDFO'
-    // defaultValue: 'fo-demo'
     defaultValue: 'pmobile'
   },['-w', '--workdir'], {
     help: '指定工作目录。',
